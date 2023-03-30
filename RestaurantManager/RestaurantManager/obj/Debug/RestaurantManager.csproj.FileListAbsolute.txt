@@ -1,0 +1,9 @@
+/Users/ygalnezri/C-RestaurantManager/RestaurantManager/RestaurantManager/bin/Debug/RestaurantManager.exe.config
+/Users/ygalnezri/C-RestaurantManager/RestaurantManager/RestaurantManager/bin/Debug/RestaurantManager.exe
+/Users/ygalnezri/C-RestaurantManager/RestaurantManager/RestaurantManager/bin/Debug/RestaurantManager.pdb
+/Users/ygalnezri/C-RestaurantManager/RestaurantManager/RestaurantManager/obj/Debug/RestaurantManager.csproj.AssemblyReference.cache
+/Users/ygalnezri/C-RestaurantManager/RestaurantManager/RestaurantManager/obj/Debug/RestaurantManager.Properties.Resources.resources
+/Users/ygalnezri/C-RestaurantManager/RestaurantManager/RestaurantManager/obj/Debug/RestaurantManager.csproj.GenerateResource.cache
+/Users/ygalnezri/C-RestaurantManager/RestaurantManager/RestaurantManager/obj/Debug/RestaurantManager.csproj.CoreCompileInputs.cache
+/Users/ygalnezri/C-RestaurantManager/RestaurantManager/RestaurantManager/obj/Debug/RestaurantManager.exe
+/Users/ygalnezri/C-RestaurantManager/RestaurantManager/RestaurantManager/obj/Debug/RestaurantManager.pdb

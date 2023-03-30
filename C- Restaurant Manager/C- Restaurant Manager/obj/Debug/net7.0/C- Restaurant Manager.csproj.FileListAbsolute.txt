@@ -1,0 +1,31 @@
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/bin/Debug/net7.0/appsettings.Development.json
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/bin/Debug/net7.0/appsettings.json
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/bin/Debug/net7.0/C- Restaurant Manager.staticwebassets.runtime.json
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/bin/Debug/net7.0/C- Restaurant Manager
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/bin/Debug/net7.0/C- Restaurant Manager.deps.json
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/bin/Debug/net7.0/C- Restaurant Manager.runtimeconfig.json
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/bin/Debug/net7.0/C- Restaurant Manager.dll
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/bin/Debug/net7.0/C- Restaurant Manager.pdb
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/C- Restaurant Manager.csproj.AssemblyReference.cache
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/C- Restaurant Manager.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/C- Restaurant Manager.AssemblyInfoInputs.cache
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/C- Restaurant Manager.AssemblyInfo.cs
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/C- Restaurant Manager.csproj.CoreCompileInputs.cache
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/C- Restaurant Manager.MvcApplicationPartsAssemblyInfo.cache
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/C- Restaurant Manager.RazorAssemblyInfo.cache
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/C- Restaurant Manager.RazorAssemblyInfo.cs
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/staticwebassets/msbuild.C- Restaurant Manager.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/staticwebassets/msbuild.build.C- Restaurant Manager.props
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.C- Restaurant Manager.props
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.C- Restaurant Manager.props
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/staticwebassets.build.json
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/staticwebassets.development.json
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/scopedcss/bundle/C- Restaurant Manager.styles.css
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/scopedcss/projectbundle/C- Restaurant Manager.bundle.scp.css
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/C- Restaurant Manager.dll
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/refint/C- Restaurant Manager.dll
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/C- Restaurant Manager.pdb
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/C- Restaurant Manager.genruntimeconfig.cache
+/Users/ygalnezri/C-RestaurantManager/C- Restaurant Manager/C- Restaurant Manager/obj/Debug/net7.0/ref/C- Restaurant Manager.dll

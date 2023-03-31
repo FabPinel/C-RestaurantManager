@@ -1,0 +1,11 @@
+C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\bin\Debug\RestaurantManager.exe.config
+C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\bin\Debug\RestaurantManager.exe
+C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\bin\Debug\RestaurantManager.pdb
+C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.csproj.AssemblyReference.cache
+C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.csproj.SuggestedBindingRedirects.cache
+C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.Form1.resources
+C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.Properties.Resources.resources
+C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.csproj.GenerateResource.cache
+C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.csproj.CoreCompileInputs.cache
+C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.exe
+C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.pdb

@@ -13,16 +13,32 @@ namespace RestaurantManager.Forms
     public partial class FormulaireReservation : Form
     {
         private readonly Reservation _parent;
+        public string id, nbrPersonnes, numeroTable, date, nomClient;
         public FormulaireReservation(Reservation parent)
         {
             InitializeComponent();
             _parent = parent;
         }
 
+        public void UpdateInfoReservation()
+        {
+            lblTextFormReservation.Text = "Mettre à jour réservation";
+            btnSaveReservation.Text = "Mettre à jour";
+            txtPersonnes.Text = nbrPersonnes;
+            txtTable.Text = numeroTable;
+            txtDate.Text = date;
+            txtClient.Text = nomClient;
+        }
+
+        public void  SaveReservationInfo()
+        {
+            lblTextFormReservation.Text = "Ajouter réservation";
+            btnSaveReservation.Text = "Sauvegarder";
+        }
+
         public void Clear()
         {
             txtPersonnes.Text = txtTable.Text = txtDate.Text = txtClient.Text = string.Empty;
-
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -57,6 +73,11 @@ namespace RestaurantManager.Forms
                 ReservationClass reservation = new ReservationClass(txtPersonnes.Text.Trim(), txtTable.Text.Trim(), txtDate.Text.Trim(), txtClient.Text.Trim());
                 DbReservation.AddReservation(reservation);
                 Clear();
+            }
+            if (btnSaveReservation.Text == "Mettre à jour")
+            {
+                ReservationClass reservation = new ReservationClass(txtPersonnes.Text.Trim(), txtTable.Text.Trim(), txtDate.Text.Trim(), txtClient.Text.Trim());
+                DbReservation.UpdateReservation(reservation, id);
             }
             _parent.Display();
         }

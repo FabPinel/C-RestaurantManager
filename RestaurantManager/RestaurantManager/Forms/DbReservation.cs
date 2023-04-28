@@ -39,6 +39,7 @@ namespace RestaurantManager.Forms
             MySqlConnection con = GetConnection();
             MySqlCommand cmd = new MySqlCommand(sql, con);
             cmd.CommandType = CommandType.Text;
+            cmd.Parameters.Add("@ReservationID", MySqlDbType.VarChar).Value =id;
             cmd.Parameters.Add("@ReservationPersonnes", MySqlDbType.VarChar).Value = res.nbrPersonnes;
             cmd.Parameters.Add("@ReservationTable", MySqlDbType.VarChar).Value = res.numeroTable;
             cmd.Parameters.Add("@ReservationDate", MySqlDbType.VarChar).Value = res.date;
@@ -46,7 +47,7 @@ namespace RestaurantManager.Forms
             try
             {
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("Réservation mise à jour avec succes.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Réservation mise à jour avec succes.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (MySqlException ex)
             {
@@ -65,7 +66,7 @@ namespace RestaurantManager.Forms
             try
             {
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("Réservation suprimée avec succes.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Réservation suprimée avec succes.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (MySqlException ex)
             {

@@ -34,6 +34,7 @@ namespace RestaurantManager.Forms
                     btn.FlatAppearance.BorderColor = ThemeColor.SecondaryColor;
                 }
             }
+
         }
     }
 }

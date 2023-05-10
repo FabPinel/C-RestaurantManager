@@ -32,7 +32,7 @@ namespace RestaurantManager.Forms
 
         public void  SaveReservationInfo()
         {
-            lblTextFormReservation.Text = "Ajouter réservation";
+            lblTextFormReservation.Text = "Ajouter une réservation";
             btnSaveReservation.Text = "Sauvegarder";
         }
 

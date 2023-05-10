@@ -101,7 +101,11 @@ namespace RestaurantManager
 
         private void buttonDashboard_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.Dashboard(), sender);
+            if (activeForm != null)
+            {
+                activeForm.Close();
+                Reset();
+            }
         }
 
         private void buttonSalle_Click(object sender, EventArgs e)
@@ -122,6 +126,11 @@ namespace RestaurantManager
         private void buttonStock_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.Stock(), sender);
+        }
+
+        private void btnClient_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.Client(), sender);
         }
 
         private void btnCloseChildForn_Click(object sender, EventArgs e)

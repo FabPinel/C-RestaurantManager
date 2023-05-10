@@ -81,15 +81,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Client.Designer.cs">
+      <DependentUpon>Client.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\DbReservation.cs" />
     <Compile Include="Forms\DbRestaurationManager.cs" />
+    <Compile Include="Forms\DbStock.cs" />
     <Compile Include="Forms\FormulaireReservation.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormulaireReservation.Designer.cs">
       <DependentUpon>FormulaireReservation.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormulaireStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormulaireStock.Designer.cs">
+      <DependentUpon>FormulaireStock.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\ReservationClass.cs" />
+    <Compile Include="Forms\Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Stock.Designer.cs">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StockClass.cs" />
     <Compile Include="RestaurantManager.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,17 +140,17 @@
     <Compile Include="Forms\Salle.Designer.cs">
       <DependentUpon>Salle.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Stock.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Stock.Designer.cs">
-      <DependentUpon>Stock.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThemeColor.cs" />
     <EmbeddedResource Include="Forms\FormulaireReservation.resx">
       <DependentUpon>FormulaireReservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormulaireStock.resx">
+      <DependentUpon>FormulaireStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Stock.resx">
+      <DependentUpon>Stock.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RestaurantManager.resx">
       <DependentUpon>RestaurantManager.cs</DependentUpon>

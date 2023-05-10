@@ -31,15 +31,15 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblTextFormReservation = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lblNbrPersonnes = new System.Windows.Forms.Label();
-            this.txtPersonnes = new System.Windows.Forms.TextBox();
-            this.txtTable = new System.Windows.Forms.TextBox();
-            this.lblNumTable = new System.Windows.Forms.Label();
-            this.txtDate = new System.Windows.Forms.TextBox();
-            this.lblDate = new System.Windows.Forms.Label();
+            this.btnSaveReservation = new System.Windows.Forms.Button();
             this.txtClient = new System.Windows.Forms.TextBox();
             this.lblClient = new System.Windows.Forms.Label();
-            this.btnSaveReservation = new System.Windows.Forms.Button();
+            this.txtDate = new System.Windows.Forms.TextBox();
+            this.lblDate = new System.Windows.Forms.Label();
+            this.txtTable = new System.Windows.Forms.TextBox();
+            this.lblNumTable = new System.Windows.Forms.Label();
+            this.txtPersonnes = new System.Windows.Forms.TextBox();
+            this.lblNbrPersonnes = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -52,7 +52,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(498, 102);
-            this.panel1.TabIndex = 0;
+            this.panel1.TabIndex = 2;
             // 
             // lblTextFormReservation
             // 
@@ -80,68 +80,25 @@
             this.panel2.Controls.Add(this.lblNumTable);
             this.panel2.Controls.Add(this.txtPersonnes);
             this.panel2.Controls.Add(this.lblNbrPersonnes);
-            this.panel2.Location = new System.Drawing.Point(38, 140);
+            this.panel2.Location = new System.Drawing.Point(37, 138);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(425, 501);
-            this.panel2.TabIndex = 0;
+            this.panel2.TabIndex = 3;
             // 
-            // lblNbrPersonnes
+            // btnSaveReservation
             // 
-            this.lblNbrPersonnes.AutoSize = true;
-            this.lblNbrPersonnes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNbrPersonnes.Location = new System.Drawing.Point(55, 93);
-            this.lblNbrPersonnes.Name = "lblNbrPersonnes";
-            this.lblNbrPersonnes.Size = new System.Drawing.Size(130, 15);
-            this.lblNbrPersonnes.TabIndex = 0;
-            this.lblNbrPersonnes.Text = "Nombre de personnes";
-            // 
-            // txtPersonnes
-            // 
-            this.txtPersonnes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtPersonnes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPersonnes.Location = new System.Drawing.Point(57, 123);
-            this.txtPersonnes.Name = "txtPersonnes";
-            this.txtPersonnes.Size = new System.Drawing.Size(321, 21);
-            this.txtPersonnes.TabIndex = 1;
-            // 
-            // txtTable
-            // 
-            this.txtTable.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTable.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTable.Location = new System.Drawing.Point(57, 189);
-            this.txtTable.Name = "txtTable";
-            this.txtTable.Size = new System.Drawing.Size(321, 21);
-            this.txtTable.TabIndex = 3;
-            // 
-            // lblNumTable
-            // 
-            this.lblNumTable.AutoSize = true;
-            this.lblNumTable.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNumTable.Location = new System.Drawing.Point(55, 159);
-            this.lblNumTable.Name = "lblNumTable";
-            this.lblNumTable.Size = new System.Drawing.Size(55, 15);
-            this.lblNumTable.TabIndex = 2;
-            this.lblNumTable.Text = "N° Table";
-            this.lblNumTable.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // txtDate
-            // 
-            this.txtDate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDate.Location = new System.Drawing.Point(58, 255);
-            this.txtDate.Name = "txtDate";
-            this.txtDate.Size = new System.Drawing.Size(320, 21);
-            this.txtDate.TabIndex = 5;
-            // 
-            // lblDate
-            // 
-            this.lblDate.AutoSize = true;
-            this.lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDate.Location = new System.Drawing.Point(56, 225);
-            this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(81, 15);
-            this.lblDate.TabIndex = 4;
-            this.lblDate.Text = "Date et heure";
+            this.btnSaveReservation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(45)))), ((int)(((byte)(66)))));
+            this.btnSaveReservation.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSaveReservation.FlatAppearance.BorderSize = 0;
+            this.btnSaveReservation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSaveReservation.Font = new System.Drawing.Font("DejaVu Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSaveReservation.ForeColor = System.Drawing.Color.White;
+            this.btnSaveReservation.Location = new System.Drawing.Point(59, 369);
+            this.btnSaveReservation.Name = "btnSaveReservation";
+            this.btnSaveReservation.Size = new System.Drawing.Size(101, 36);
+            this.btnSaveReservation.TabIndex = 0;
+            this.btnSaveReservation.Text = "Ajouter";
+            this.btnSaveReservation.UseVisualStyleBackColor = false;
             // 
             // txtClient
             // 
@@ -162,21 +119,62 @@
             this.lblClient.TabIndex = 6;
             this.lblClient.Text = "Client";
             // 
-            // btnSaveReservation
+            // txtDate
             // 
-            this.btnSaveReservation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(45)))), ((int)(((byte)(66)))));
-            this.btnSaveReservation.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSaveReservation.FlatAppearance.BorderSize = 0;
-            this.btnSaveReservation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSaveReservation.Font = new System.Drawing.Font("DejaVu Sans", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSaveReservation.ForeColor = System.Drawing.Color.White;
-            this.btnSaveReservation.Location = new System.Drawing.Point(59, 369);
-            this.btnSaveReservation.Name = "btnSaveReservation";
-            this.btnSaveReservation.Size = new System.Drawing.Size(101, 36);
-            this.btnSaveReservation.TabIndex = 0;
-            this.btnSaveReservation.Text = "Ajouter";
-            this.btnSaveReservation.UseVisualStyleBackColor = false;
-            this.btnSaveReservation.Click += new System.EventHandler(this.btnSaveReservation_Click);
+            this.txtDate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDate.Location = new System.Drawing.Point(58, 255);
+            this.txtDate.Name = "txtDate";
+            this.txtDate.Size = new System.Drawing.Size(320, 21);
+            this.txtDate.TabIndex = 5;
+            // 
+            // lblDate
+            // 
+            this.lblDate.AutoSize = true;
+            this.lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate.Location = new System.Drawing.Point(56, 225);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(81, 15);
+            this.lblDate.TabIndex = 4;
+            this.lblDate.Text = "Date et heure";
+            // 
+            // txtTable
+            // 
+            this.txtTable.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtTable.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTable.Location = new System.Drawing.Point(57, 189);
+            this.txtTable.Name = "txtTable";
+            this.txtTable.Size = new System.Drawing.Size(321, 21);
+            this.txtTable.TabIndex = 3;
+            // 
+            // lblNumTable
+            // 
+            this.lblNumTable.AutoSize = true;
+            this.lblNumTable.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumTable.Location = new System.Drawing.Point(55, 159);
+            this.lblNumTable.Name = "lblNumTable";
+            this.lblNumTable.Size = new System.Drawing.Size(55, 15);
+            this.lblNumTable.TabIndex = 2;
+            this.lblNumTable.Text = "N° Table";
+            // 
+            // txtPersonnes
+            // 
+            this.txtPersonnes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtPersonnes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPersonnes.Location = new System.Drawing.Point(57, 123);
+            this.txtPersonnes.Name = "txtPersonnes";
+            this.txtPersonnes.Size = new System.Drawing.Size(321, 21);
+            this.txtPersonnes.TabIndex = 1;
+            // 
+            // lblNbrPersonnes
+            // 
+            this.lblNbrPersonnes.AutoSize = true;
+            this.lblNbrPersonnes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNbrPersonnes.Location = new System.Drawing.Point(55, 93);
+            this.lblNbrPersonnes.Name = "lblNbrPersonnes";
+            this.lblNbrPersonnes.Size = new System.Drawing.Size(130, 15);
+            this.lblNbrPersonnes.TabIndex = 0;
+            this.lblNbrPersonnes.Text = "Nombre de personnes";
             // 
             // FormulaireReservation
             // 
@@ -198,10 +196,10 @@
         }
 
         #endregion
-
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblTextFormReservation;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button btnSaveReservation;
         private System.Windows.Forms.TextBox txtClient;
         private System.Windows.Forms.Label lblClient;
         private System.Windows.Forms.TextBox txtDate;
@@ -210,6 +208,5 @@
         private System.Windows.Forms.Label lblNumTable;
         private System.Windows.Forms.TextBox txtPersonnes;
         private System.Windows.Forms.Label lblNbrPersonnes;
-        private System.Windows.Forms.Button btnSaveReservation;
     }
 }

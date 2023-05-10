@@ -54,7 +54,7 @@ namespace RestaurantManager.Forms
             }
             if(e.ColumnIndex == 1)
             {
-                if (MessageBox.Show("Voulez-vous supprimer cette réservation ?", "Information", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Information) == DialogResult.Yes);
+                if (MessageBox.Show("Voulez-vous supprimer cette réservation ?", "Information", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Information) == DialogResult.Yes)
                 {
                     DbReservation.DeleteReservation(dataGridViewReservation.Rows[e.RowIndex].Cells[2].Value.ToString());
                     Display();

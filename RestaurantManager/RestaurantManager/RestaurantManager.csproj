@@ -312,6 +312,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="mongocrypt.dll" />
+    <None Include="Resources\done.png" />
+    <None Include="Resources\dot-RM.png" />
+    <None Include="Resources\product-RM.png" />
+    <None Include="Resources\truck-RM.png" />
+    <None Include="Resources\customer-RM.png" />
+    <None Include="Resources\commande-RM2.png" />
+    <None Include="Resources\commande-RM1.png" />
+    <None Include="Resources\profit-RM.png" />
+    <None Include="Resources\revenue-RM.png" />
+    <None Include="Resources\commande-RM.png" />
+    <None Include="Resources\icons8-done-30.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MongoDB.Libmongocrypt.1.7.0\build\MongoDB.Libmongocrypt.targets" Condition="Exists('..\packages\MongoDB.Libmongocrypt.1.7.0\build\MongoDB.Libmongocrypt.targets')" />

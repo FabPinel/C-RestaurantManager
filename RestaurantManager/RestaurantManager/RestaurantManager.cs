@@ -20,6 +20,7 @@ namespace RestaurantManager
         private int tempIndex;
         private Form activeForm;
         private DasboardStat model;
+        private Button currentButtonDashboard;
 
         //Constructor
         public RestaurantManager()
@@ -35,6 +36,7 @@ namespace RestaurantManager
             dtpStartDate.Value = DateTime.Today.AddDays(-7);
             dtpEndDate.Value = DateTime.Now;
             btnLast7Days.Select();
+            DisableCustomDates(btnLast7Days);
 
             model = new DasboardStat();
             LoadData();
@@ -222,11 +224,39 @@ namespace RestaurantManager
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void DisableCustomDates()
+        private void DisableCustomDates(object button)
         {
-            dtpStartDate.Enabled = false;
-            dtpEndDate.Enabled = false;
-            btnOkCustomDate.Visible = false;
+            var btn = (Button)button;
+            //Highlight button
+            btn.FlatStyle = FlatStyle.Flat;
+            btn.BackColor = btnLast30Days.FlatAppearance.BorderColor;
+            btn.ForeColor = Color.White;
+            //Unhighlight button
+            if (currentButtonDashboard != null && currentButtonDashboard !=btn)
+            {
+                btn.FlatStyle = FlatStyle.Flat;
+                currentButtonDashboard.BackColor = this.BackColor;
+                currentButtonDashboard.ForeColor = Color.FromArgb(189, 198, 209);
+            }
+            currentButtonDashboard = btn;//set current button
+
+
+            if(btn==btnCustom)
+            {
+                dtpStartDate.Enabled = true;
+                dtpEndDate.Enabled = true;
+                btnOkCustomDate.Visible = true;
+                lblStartDate.Cursor = Cursors.Hand;
+                lblEndDate.Cursor = Cursors.Hand;
+            }
+            else
+            {
+                dtpStartDate.Enabled = false;
+                dtpEndDate.Enabled = false;
+                btnOkCustomDate.Visible = false;
+                lblStartDate.Cursor = Cursors.Default;
+                lblEndDate.Cursor = Cursors.Default;
+            }
         }
 
         //event methods
@@ -235,7 +265,7 @@ namespace RestaurantManager
             dtpStartDate.Value = DateTime.Today;
             dtpEndDate.Value = DateTime.Now;
             LoadData();
-            DisableCustomDates();
+            DisableCustomDates(sender);
         }
 
         private void btnLast7Days_Click(object sender, EventArgs e)
@@ -243,7 +273,7 @@ namespace RestaurantManager
             dtpStartDate.Value = DateTime.Today.AddDays(-7);
             dtpEndDate.Value = DateTime.Now;
             LoadData();
-            DisableCustomDates();
+            DisableCustomDates(sender);
         }
 
         private void btnLast30Days_Click(object sender, EventArgs e)
@@ -251,7 +281,7 @@ namespace RestaurantManager
             dtpStartDate.Value = DateTime.Today.AddDays(-30);
             dtpEndDate.Value = DateTime.Now;
             LoadData();
-            DisableCustomDates();
+            DisableCustomDates(sender);
         }
 
         private void btnThisMonth_Click(object sender, EventArgs e)
@@ -259,7 +289,7 @@ namespace RestaurantManager
             dtpStartDate.Value = new DateTime(DateTime.Today.Year, DateTime.Today.Month,1);
             dtpEndDate.Value = DateTime.Now;
             LoadData();
-            DisableCustomDates();
+            DisableCustomDates(sender);
         }
 
         private void btnCustom_Click(object sender, EventArgs e)
@@ -267,11 +297,47 @@ namespace RestaurantManager
             dtpStartDate.Enabled = true;
             dtpEndDate.Enabled = true;
             btnOkCustomDate.Visible = true;
+            DisableCustomDates(sender);
         }
 
         private void btnOkCustomDate_Click(object sender, EventArgs e)
         {
             LoadData();
+        }
+
+        private void lblStartDate_Click(object sender, EventArgs e)
+        {
+            if (currentButtonDashboard == btnCustom)
+            {
+                dtpStartDate.Select();
+                SendKeys.Send("%{DOWN}");
+            }
+        }
+
+        private void lblEndDate_Click(object sender, EventArgs e)
+        {
+            if (currentButtonDashboard == btnCustom)
+            {
+                dtpEndDate.Select();
+                SendKeys.Send("%{DOWN}");
+            }
+        }
+
+        private void dtpStartDate_ValueChanged(object sender, EventArgs e)
+        {
+            lblStartDate.Text = dtpStartDate.Text;
+        }
+
+        private void dtpEndDate_ValueChanged(object sender, EventArgs e)
+        {
+            lblEndDate.Text = dtpEndDate.Text;
+        }
+
+        private void RestaurantManager_Load(object sender, EventArgs e)
+        {
+            lblStartDate.Text = dtpStartDate.Text;
+            lblEndDate.Text = dtpEndDate.Text;
+            dgvUnderStock.Columns[1].Width = 40;
         }
     }
 }

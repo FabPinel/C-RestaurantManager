@@ -10,3 +10,16 @@ C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\obj\Debug\Rest
 C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.exe
 C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.pdb
 C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.Forms.Salle.resources
+C:\Users\Okan2\source\repos\RestaurantManager\RestaurantManager\bin\Debug\RestaurantManager.exe.config
+C:\Users\Okan2\source\repos\RestaurantManager\RestaurantManager\bin\Debug\RestaurantManager.exe
+C:\Users\Okan2\source\repos\RestaurantManager\RestaurantManager\bin\Debug\RestaurantManager.pdb
+C:\Users\Okan2\source\repos\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.csproj.AssemblyReference.cache
+C:\Users\Okan2\source\repos\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.csproj.SuggestedBindingRedirects.cache
+C:\Users\Okan2\source\repos\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.Form1.resources
+C:\Users\Okan2\source\repos\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.Forms.Salle.resources
+C:\Users\Okan2\source\repos\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.Properties.Resources.resources
+C:\Users\Okan2\source\repos\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.csproj.GenerateResource.cache
+C:\Users\Okan2\source\repos\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.csproj.CoreCompileInputs.cache
+C:\Users\Okan2\source\repos\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.exe
+C:\Users\Okan2\source\repos\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.pdb
+C:\Users\Okan2\source\repos\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.Forms.Menu.resources

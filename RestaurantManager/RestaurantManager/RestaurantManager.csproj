@@ -88,6 +88,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Salle.resx">
       <DependentUpon>Salle.cs</DependentUpon>
     </EmbeddedResource>
@@ -143,6 +146,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banniereMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bannierePizza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bannierePates.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banniereSalades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banniereBoissons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banniereDesserts.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

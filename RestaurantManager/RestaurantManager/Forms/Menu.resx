@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Fuze tea
+
+33cl
+
+2.5 €
+
+Oasis tropical
+
+33cl
+
+2.5 €
+
+Fanta
+
+33cl
+
+2.5 €
+
+Sprite
+
+33cl
+
+2.5 €
+
+Coca-cola
+
+33cl
+
+2.5 €
+
+Coca-cola sans sucre
+
+33cl
+
+2.5 €
+
+Eau minérale
+
+33cl
+
+1.5 €</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Choco pizz'
+
+Bâtonnets de pâte à pizza nappés de sauce goût chocolat-noisette.
+
+4 €
+
+Moelleux au chocolat
+
+Avec son coeur coulant, l’émotion chocolat est garantie !
+
+3 €
+
+Mini beignets choco
+
+4 mini beignets fourrés chocolat-noisette.
+
+4 €
+
+Cal'z banane choco
+
+Pâte à pizza garnie d’une compotée de bananes caramélisées et 
+d'une sauce goût chocolat-noisette.
+
+4 €</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Niçoise
+
+Mélange de salades, thon, olives noires, tomates cerises, oignons verts et rouges,
+pois gourmands, pommes de terre et œuf dur.
+
+8 €
+
+César scampi
+
+Laitue romaine, croûtons maison, fromage italien et crevettes.
+
+8 €
+
+César pollo
+
+Laitue romaine, croûtons maison, fromage italien et poulet.
+
+8 €
+
+Salade croquante​
+
+Mélange de salades, carottes et tomates cerises avec notre vinaigrette balsamique.
+
+6.5 €</value>
+  </data>
+  <data name="label78.Text" xml:space="preserve">
+    <value>Crema Di Funghi
+
+Champignons, oignons balsamique, muscade, vin blanc, crème, persil.
+
+12.5 €
+
+Pomodoro
+
+Sauce tomate, oignons.
+
+11 €
+
+Carbonara
+
+Lardons, oignons, sauce crémeuse, oeuf, fromage italien, persil.
+
+12 €
+
+Bolognese
+
+Bœuf, oignons, céleri, sauce italienne.
+
+12 €
+
+Bolognese
+
+Bœuf, oignons, céleri, sauce italienne.
+
+12 €
+
+Tartufo
+
+Crème de truffe, huile d'olive, oignons blanc, ail, vin blanc, marrons, persil, citron vert.
+
+15 €
+
+Pesto Roso
+
+Fusilli pesto tomate, fromage italien, pignons de pins, tomates et piment.
+
+13 €
+
+Quattro Formaggi
+
+Crème, gorgonzola, fromage italien, burrata, chèvre, roquette, noisettes torréfiées.
+
+13 €
+
+Gnocchi Pomodoro
+
+Sauce tomate, oignons balsamique et tomate cerises.
+
+12 €</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Les tomates
+
+4 fromages
+
+Sauce tomate , mozzarella, chèvre, emmental, Fourme d’Ambert AOP.
+
+13 €
+
+Pepperoni
+
+Sauce tomate, mozzarella, pepperoni.
+
+8.5 €
+
+Margherita
+
+Sauce tomate, mozzarella.
+
+8.5 €
+
+Reine
+
+Sauce tomate, mozzarella, jambon, champignons de Paris.
+
+11 €
+
+Diavola
+
+Sauce tomate, mozzarella, haché au bœuf assaisonné*, duo de poivrons, 
+oignons, piments jalapeños.
+
+12 €
+
+Jambon
+
+Sauce tomate, mozzarella, jambon.
+
+8.5 €
+
+Les crèmes
+
+Chèvre miel
+
+Crème fraîche légère française, mozzarella, chèvre, miel français.
+
+12 €
+
+Savoyarde
+
+Crème fraîche légère française, mozzarella, lardons fumés, pommes de terre françaises sautées,
+Reblochon de Savoie AOP, origan.
+
+13 €
+
+Saumon
+
+Crème fraîche légère française, mozzarella, saumon fumé au bois de hêtre, oignons,
+pommes de terre françaises sautées.
+
+13.5 €</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Entrée
+
+César pollo
+
+Laitue romaine, croûtons maison, fromage italien et poulet.
+
+Plat
+
+Bolognese
+
+Bœuf, oignons, céleri, sauce italienne.
+
+Dessert
+
+Tiramisu
+
+Sucre roux, sucre vanillé, biscuit à la cuillère, cacao, œufs, mascarpone, café noir.
+
+Boisson
+
+Schweppes agrumes
+
+33cl
+
+22 €
+</value>
+  </data>
+</root>

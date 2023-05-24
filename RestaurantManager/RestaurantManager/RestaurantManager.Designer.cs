@@ -40,21 +40,32 @@
             System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.buttonStock = new System.Windows.Forms.Button();
+            this.buttonMenu = new System.Windows.Forms.Button();
+            this.buttonReservation = new System.Windows.Forms.Button();
+            this.buttonSalle = new System.Windows.Forms.Button();
+            this.buttonDashboard = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panelTittleBar = new System.Windows.Forms.Panel();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
+            this.btnCloseChildForm = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelDesktopPane = new System.Windows.Forms.Panel();
             this.lblEndDate = new System.Windows.Forms.Label();
             this.lblStartDate = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.dgvUnderStock = new System.Windows.Forms.DataGridView();
             this.label12 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.lblNumProducts = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.lblNumSuppliers = new System.Windows.Forms.Label();
@@ -65,14 +76,18 @@
             this.chartTopProducts = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chartGrossRevenue = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.lblTotalProfit = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.lblTotalRevenue = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lblNumberOfOrders = new System.Windows.Forms.Label();
             this.lblNumberOfOrdersTxt = new System.Windows.Forms.Label();
+            this.btnOkCustomDate = new System.Windows.Forms.Button();
             this.btnCustom = new System.Windows.Forms.Button();
             this.btnToday = new System.Windows.Forms.Button();
             this.btnLast7Days = new System.Windows.Forms.Button();
@@ -80,48 +95,31 @@
             this.btnThisMonth = new System.Windows.Forms.Button();
             this.dtpEndDate = new System.Windows.Forms.DateTimePicker();
             this.dtpStartDate = new System.Windows.Forms.DateTimePicker();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnOkCustomDate = new System.Windows.Forms.Button();
-            this.btnCloseChildForm = new System.Windows.Forms.Button();
-            this.btnClient = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.buttonStock = new System.Windows.Forms.Button();
-            this.buttonMenu = new System.Windows.Forms.Button();
-            this.buttonReservation = new System.Windows.Forms.Button();
-            this.buttonSalle = new System.Windows.Forms.Button();
-            this.buttonDashboard = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelLogo.SuspendLayout();
             this.panelTittleBar.SuspendLayout();
             this.panelDesktopPane.SuspendLayout();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUnderStock)).BeginInit();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chartTopProducts)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartGrossRevenue)).BeginInit();
-            this.panel3.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartTopProducts)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartGrossRevenue)).BeginInit();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(45)))), ((int)(((byte)(66)))));
-            this.panelMenu.Controls.Add(this.btnClient);
             this.panelMenu.Controls.Add(this.pictureBox1);
             this.panelMenu.Controls.Add(this.buttonStock);
             this.panelMenu.Controls.Add(this.buttonMenu);
@@ -134,6 +132,118 @@
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(220, 552);
             this.panelMenu.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pictureBox1.Image = global::RestaurantManager.Properties.Resources.logo;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 438);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(220, 114);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
+            // buttonStock
+            // 
+            this.buttonStock.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonStock.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonStock.FlatAppearance.BorderSize = 0;
+            this.buttonStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonStock.ForeColor = System.Drawing.Color.White;
+            this.buttonStock.Image = global::RestaurantManager.Properties.Resources.stock;
+            this.buttonStock.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonStock.Location = new System.Drawing.Point(0, 320);
+            this.buttonStock.Name = "buttonStock";
+            this.buttonStock.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonStock.Size = new System.Drawing.Size(220, 60);
+            this.buttonStock.TabIndex = 5;
+            this.buttonStock.Text = "  Stock";
+            this.buttonStock.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonStock.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonStock.UseVisualStyleBackColor = true;
+            this.buttonStock.Click += new System.EventHandler(this.buttonStock_Click);
+            // 
+            // buttonMenu
+            // 
+            this.buttonMenu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonMenu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonMenu.FlatAppearance.BorderSize = 0;
+            this.buttonMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonMenu.ForeColor = System.Drawing.Color.White;
+            this.buttonMenu.Image = global::RestaurantManager.Properties.Resources.menu;
+            this.buttonMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonMenu.Location = new System.Drawing.Point(0, 260);
+            this.buttonMenu.Name = "buttonMenu";
+            this.buttonMenu.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonMenu.Size = new System.Drawing.Size(220, 60);
+            this.buttonMenu.TabIndex = 4;
+            this.buttonMenu.Text = "  Menu";
+            this.buttonMenu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonMenu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonMenu.UseVisualStyleBackColor = true;
+            this.buttonMenu.Click += new System.EventHandler(this.buttonMenu_Click);
+            // 
+            // buttonReservation
+            // 
+            this.buttonReservation.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonReservation.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonReservation.FlatAppearance.BorderSize = 0;
+            this.buttonReservation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonReservation.ForeColor = System.Drawing.Color.White;
+            this.buttonReservation.Image = global::RestaurantManager.Properties.Resources.reservation;
+            this.buttonReservation.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonReservation.Location = new System.Drawing.Point(0, 200);
+            this.buttonReservation.Name = "buttonReservation";
+            this.buttonReservation.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonReservation.Size = new System.Drawing.Size(220, 60);
+            this.buttonReservation.TabIndex = 3;
+            this.buttonReservation.Text = "  Réservation";
+            this.buttonReservation.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonReservation.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonReservation.UseVisualStyleBackColor = true;
+            this.buttonReservation.Click += new System.EventHandler(this.buttonReservation_Click);
+            // 
+            // buttonSalle
+            // 
+            this.buttonSalle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonSalle.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonSalle.FlatAppearance.BorderSize = 0;
+            this.buttonSalle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSalle.ForeColor = System.Drawing.Color.White;
+            this.buttonSalle.Image = global::RestaurantManager.Properties.Resources.table;
+            this.buttonSalle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonSalle.Location = new System.Drawing.Point(0, 140);
+            this.buttonSalle.Name = "buttonSalle";
+            this.buttonSalle.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonSalle.Size = new System.Drawing.Size(220, 60);
+            this.buttonSalle.TabIndex = 2;
+            this.buttonSalle.Text = "  Salle";
+            this.buttonSalle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonSalle.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonSalle.UseVisualStyleBackColor = true;
+            this.buttonSalle.Click += new System.EventHandler(this.buttonSalle_Click);
+            // 
+            // buttonDashboard
+            // 
+            this.buttonDashboard.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonDashboard.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonDashboard.FlatAppearance.BorderSize = 0;
+            this.buttonDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonDashboard.ForeColor = System.Drawing.Color.Gainsboro;
+            this.buttonDashboard.Image = global::RestaurantManager.Properties.Resources.Dashboard;
+            this.buttonDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonDashboard.Location = new System.Drawing.Point(0, 80);
+            this.buttonDashboard.Name = "buttonDashboard";
+            this.buttonDashboard.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonDashboard.Size = new System.Drawing.Size(220, 60);
+            this.buttonDashboard.TabIndex = 1;
+            this.buttonDashboard.Text = "  Dashboard";
+            this.buttonDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonDashboard.UseVisualStyleBackColor = true;
+            this.buttonDashboard.Click += new System.EventHandler(this.buttonDashboard_Click);
             // 
             // panelLogo
             // 
@@ -219,6 +329,20 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // btnCloseChildForm
+            // 
+            this.btnCloseChildForm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCloseChildForm.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnCloseChildForm.FlatAppearance.BorderSize = 0;
+            this.btnCloseChildForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCloseChildForm.Image = global::RestaurantManager.Properties.Resources.cross_out__2_;
+            this.btnCloseChildForm.Location = new System.Drawing.Point(0, 0);
+            this.btnCloseChildForm.Name = "btnCloseChildForm";
+            this.btnCloseChildForm.Size = new System.Drawing.Size(75, 80);
+            this.btnCloseChildForm.TabIndex = 1;
+            this.btnCloseChildForm.UseVisualStyleBackColor = true;
+            this.btnCloseChildForm.Click += new System.EventHandler(this.btnCloseChildForn_Click);
+            // 
             // lblTitle
             // 
             this.lblTitle.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -233,6 +357,9 @@
             // 
             // panelDesktopPane
             // 
+            this.panelDesktopPane.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panelDesktopPane.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(45)))), ((int)(((byte)(66)))));
             this.panelDesktopPane.Controls.Add(this.lblEndDate);
             this.panelDesktopPane.Controls.Add(this.lblStartDate);
@@ -252,7 +379,6 @@
             this.panelDesktopPane.Controls.Add(this.btnThisMonth);
             this.panelDesktopPane.Controls.Add(this.dtpEndDate);
             this.panelDesktopPane.Controls.Add(this.dtpStartDate);
-            this.panelDesktopPane.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktopPane.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelDesktopPane.Location = new System.Drawing.Point(220, 80);
             this.panelDesktopPane.Name = "panelDesktopPane";
@@ -263,7 +389,7 @@
             // 
             this.lblEndDate.AutoSize = true;
             this.lblEndDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(189)))), ((int)(((byte)(198)))), ((int)(((byte)(209)))));
-            this.lblEndDate.Location = new System.Drawing.Point(164, 5);
+            this.lblEndDate.Location = new System.Drawing.Point(166, 5);
             this.lblEndDate.MinimumSize = new System.Drawing.Size(130, 30);
             this.lblEndDate.Name = "lblEndDate";
             this.lblEndDate.Size = new System.Drawing.Size(130, 30);
@@ -308,6 +434,16 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(283, 163);
             this.panel5.TabIndex = 11;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::RestaurantManager.Properties.Resources.dot_RM;
+            this.pictureBox8.Location = new System.Drawing.Point(252, 3);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(28, 21);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 9;
+            this.pictureBox8.TabStop = false;
             // 
             // dgvUnderStock
             // 
@@ -379,6 +515,36 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(186, 163);
             this.panel4.TabIndex = 10;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::RestaurantManager.Properties.Resources.product_RM;
+            this.pictureBox7.Location = new System.Drawing.Point(12, 121);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 8;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::RestaurantManager.Properties.Resources.truck_RM;
+            this.pictureBox6.Location = new System.Drawing.Point(13, 75);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 7;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::RestaurantManager.Properties.Resources.customer_RM;
+            this.pictureBox5.Location = new System.Drawing.Point(13, 29);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 3;
+            this.pictureBox5.TabStop = false;
             // 
             // lblNumProducts
             // 
@@ -560,6 +726,16 @@
             this.panel3.Size = new System.Drawing.Size(252, 45);
             this.panel3.TabIndex = 10;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::RestaurantManager.Properties.Resources.profit_RM;
+            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(45, 39);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 4;
+            this.pictureBox4.TabStop = false;
+            // 
             // lblTotalProfit
             // 
             this.lblTotalProfit.AutoSize = true;
@@ -587,10 +763,20 @@
             this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Controls.Add(this.lblTotalRevenue);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Location = new System.Drawing.Point(212, 49);
+            this.panel2.Location = new System.Drawing.Point(213, 49);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(269, 45);
             this.panel2.TabIndex = 10;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::RestaurantManager.Properties.Resources.revenue_RM;
+            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(45, 39);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 3;
+            this.pictureBox3.TabStop = false;
             // 
             // lblTotalRevenue
             // 
@@ -624,6 +810,16 @@
             this.panel1.Size = new System.Drawing.Size(200, 45);
             this.panel1.TabIndex = 9;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::RestaurantManager.Properties.Resources.commande_RM2;
+            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(45, 39);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
             // lblNumberOfOrders
             // 
             this.lblNumberOfOrders.AutoSize = true;
@@ -644,6 +840,23 @@
             this.lblNumberOfOrdersTxt.Size = new System.Drawing.Size(111, 13);
             this.lblNumberOfOrdersTxt.TabIndex = 0;
             this.lblNumberOfOrdersTxt.Text = "Nombre de comandes";
+            // 
+            // btnOkCustomDate
+            // 
+            this.btnOkCustomDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(45)))), ((int)(((byte)(66)))));
+            this.btnOkCustomDate.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnOkCustomDate.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(153)))), ((int)(((byte)(174)))));
+            this.btnOkCustomDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOkCustomDate.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnOkCustomDate.Image = global::RestaurantManager.Properties.Resources.done;
+            this.btnOkCustomDate.Location = new System.Drawing.Point(304, 6);
+            this.btnOkCustomDate.MinimumSize = new System.Drawing.Size(0, 25);
+            this.btnOkCustomDate.Name = "btnOkCustomDate";
+            this.btnOkCustomDate.Size = new System.Drawing.Size(30, 30);
+            this.btnOkCustomDate.TabIndex = 8;
+            this.btnOkCustomDate.UseVisualStyleBackColor = false;
+            this.btnOkCustomDate.Visible = false;
+            this.btnOkCustomDate.Click += new System.EventHandler(this.btnOkCustomDate_Click);
             // 
             // btnCustom
             // 
@@ -744,239 +957,6 @@
             this.dtpStartDate.TabIndex = 1;
             this.dtpStartDate.ValueChanged += new System.EventHandler(this.dtpStartDate_ValueChanged);
             // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::RestaurantManager.Properties.Resources.dot_RM;
-            this.pictureBox8.Location = new System.Drawing.Point(252, 3);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(28, 21);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 9;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::RestaurantManager.Properties.Resources.product_RM;
-            this.pictureBox7.Location = new System.Drawing.Point(12, 121);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(35, 35);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 8;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::RestaurantManager.Properties.Resources.truck_RM;
-            this.pictureBox6.Location = new System.Drawing.Point(13, 75);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(35, 35);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 7;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::RestaurantManager.Properties.Resources.customer_RM;
-            this.pictureBox5.Location = new System.Drawing.Point(13, 29);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(35, 35);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 3;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::RestaurantManager.Properties.Resources.profit_RM;
-            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(45, 39);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 4;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::RestaurantManager.Properties.Resources.revenue_RM;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(45, 39);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::RestaurantManager.Properties.Resources.commande_RM2;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(45, 39);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
-            // btnOkCustomDate
-            // 
-            this.btnOkCustomDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(35)))), ((int)(((byte)(60)))));
-            this.btnOkCustomDate.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnOkCustomDate.FlatAppearance.BorderSize = 0;
-            this.btnOkCustomDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOkCustomDate.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnOkCustomDate.Image = global::RestaurantManager.Properties.Resources.done;
-            this.btnOkCustomDate.Location = new System.Drawing.Point(312, 6);
-            this.btnOkCustomDate.MinimumSize = new System.Drawing.Size(0, 25);
-            this.btnOkCustomDate.Name = "btnOkCustomDate";
-            this.btnOkCustomDate.Size = new System.Drawing.Size(30, 30);
-            this.btnOkCustomDate.TabIndex = 8;
-            this.btnOkCustomDate.UseVisualStyleBackColor = false;
-            this.btnOkCustomDate.Visible = false;
-            this.btnOkCustomDate.Click += new System.EventHandler(this.btnOkCustomDate_Click);
-            // 
-            // btnCloseChildForm
-            // 
-            this.btnCloseChildForm.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCloseChildForm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnCloseChildForm.FlatAppearance.BorderSize = 0;
-            this.btnCloseChildForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCloseChildForm.Image = global::RestaurantManager.Properties.Resources.cross_out__2_;
-            this.btnCloseChildForm.Location = new System.Drawing.Point(0, 0);
-            this.btnCloseChildForm.Name = "btnCloseChildForm";
-            this.btnCloseChildForm.Size = new System.Drawing.Size(75, 80);
-            this.btnCloseChildForm.TabIndex = 1;
-            this.btnCloseChildForm.UseVisualStyleBackColor = true;
-            this.btnCloseChildForm.Click += new System.EventHandler(this.btnCloseChildForn_Click);
-            // 
-            // btnClient
-            // 
-            this.btnClient.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnClient.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnClient.FlatAppearance.BorderSize = 0;
-            this.btnClient.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClient.ForeColor = System.Drawing.Color.White;
-            this.btnClient.Image = global::RestaurantManager.Properties.Resources.reservation;
-            this.btnClient.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClient.Location = new System.Drawing.Point(0, 380);
-            this.btnClient.Name = "btnClient";
-            this.btnClient.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnClient.Size = new System.Drawing.Size(220, 60);
-            this.btnClient.TabIndex = 7;
-            this.btnClient.Text = "Client";
-            this.btnClient.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClient.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnClient.UseVisualStyleBackColor = true;
-            this.btnClient.Click += new System.EventHandler(this.btnClient_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pictureBox1.Image = global::RestaurantManager.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 438);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(220, 114);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
-            // buttonStock
-            // 
-            this.buttonStock.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonStock.Dock = System.Windows.Forms.DockStyle.Top;
-            this.buttonStock.FlatAppearance.BorderSize = 0;
-            this.buttonStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonStock.ForeColor = System.Drawing.Color.White;
-            this.buttonStock.Image = global::RestaurantManager.Properties.Resources.stock;
-            this.buttonStock.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonStock.Location = new System.Drawing.Point(0, 320);
-            this.buttonStock.Name = "buttonStock";
-            this.buttonStock.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.buttonStock.Size = new System.Drawing.Size(220, 60);
-            this.buttonStock.TabIndex = 5;
-            this.buttonStock.Text = "  Stock";
-            this.buttonStock.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonStock.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.buttonStock.UseVisualStyleBackColor = true;
-            this.buttonStock.Click += new System.EventHandler(this.buttonStock_Click);
-            // 
-            // buttonMenu
-            // 
-            this.buttonMenu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.buttonMenu.FlatAppearance.BorderSize = 0;
-            this.buttonMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonMenu.ForeColor = System.Drawing.Color.White;
-            this.buttonMenu.Image = global::RestaurantManager.Properties.Resources.menu;
-            this.buttonMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonMenu.Location = new System.Drawing.Point(0, 260);
-            this.buttonMenu.Name = "buttonMenu";
-            this.buttonMenu.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.buttonMenu.Size = new System.Drawing.Size(220, 60);
-            this.buttonMenu.TabIndex = 4;
-            this.buttonMenu.Text = "  Menu";
-            this.buttonMenu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonMenu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.buttonMenu.UseVisualStyleBackColor = true;
-            this.buttonMenu.Click += new System.EventHandler(this.buttonMenu_Click);
-            // 
-            // buttonReservation
-            // 
-            this.buttonReservation.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonReservation.Dock = System.Windows.Forms.DockStyle.Top;
-            this.buttonReservation.FlatAppearance.BorderSize = 0;
-            this.buttonReservation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonReservation.ForeColor = System.Drawing.Color.White;
-            this.buttonReservation.Image = global::RestaurantManager.Properties.Resources.reservation;
-            this.buttonReservation.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonReservation.Location = new System.Drawing.Point(0, 200);
-            this.buttonReservation.Name = "buttonReservation";
-            this.buttonReservation.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.buttonReservation.Size = new System.Drawing.Size(220, 60);
-            this.buttonReservation.TabIndex = 3;
-            this.buttonReservation.Text = "  Réservation";
-            this.buttonReservation.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonReservation.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.buttonReservation.UseVisualStyleBackColor = true;
-            this.buttonReservation.Click += new System.EventHandler(this.buttonReservation_Click);
-            // 
-            // buttonSalle
-            // 
-            this.buttonSalle.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonSalle.Dock = System.Windows.Forms.DockStyle.Top;
-            this.buttonSalle.FlatAppearance.BorderSize = 0;
-            this.buttonSalle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSalle.ForeColor = System.Drawing.Color.White;
-            this.buttonSalle.Image = global::RestaurantManager.Properties.Resources.table;
-            this.buttonSalle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonSalle.Location = new System.Drawing.Point(0, 140);
-            this.buttonSalle.Name = "buttonSalle";
-            this.buttonSalle.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.buttonSalle.Size = new System.Drawing.Size(220, 60);
-            this.buttonSalle.TabIndex = 2;
-            this.buttonSalle.Text = "  Salle";
-            this.buttonSalle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonSalle.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.buttonSalle.UseVisualStyleBackColor = true;
-            this.buttonSalle.Click += new System.EventHandler(this.buttonSalle_Click);
-            // 
-            // buttonDashboard
-            // 
-            this.buttonDashboard.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonDashboard.Dock = System.Windows.Forms.DockStyle.Top;
-            this.buttonDashboard.FlatAppearance.BorderSize = 0;
-            this.buttonDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonDashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonDashboard.ForeColor = System.Drawing.Color.Gainsboro;
-            this.buttonDashboard.Image = global::RestaurantManager.Properties.Resources.Dashboard;
-            this.buttonDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonDashboard.Location = new System.Drawing.Point(0, 80);
-            this.buttonDashboard.Name = "buttonDashboard";
-            this.buttonDashboard.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.buttonDashboard.Size = new System.Drawing.Size(220, 60);
-            this.buttonDashboard.TabIndex = 1;
-            this.buttonDashboard.Text = "  Dashboard";
-            this.buttonDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.buttonDashboard.UseVisualStyleBackColor = true;
-            this.buttonDashboard.Click += new System.EventHandler(this.buttonDashboard_Click);
-            // 
             // RestaurantManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -990,6 +970,7 @@
             this.Text = "RestaurantManager";
             this.Load += new System.EventHandler(this.RestaurantManager_Load);
             this.panelMenu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
             this.panelTittleBar.ResumeLayout(false);
@@ -998,25 +979,24 @@
             this.panelDesktopPane.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUnderStock)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartTopProducts)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartGrossRevenue)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1039,7 +1019,6 @@
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnMinimize;
         private System.Windows.Forms.Button btnMaximize;
-        private System.Windows.Forms.Button btnClient;
         private System.Windows.Forms.DateTimePicker dtpStartDate;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartTopProducts;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartGrossRevenue;

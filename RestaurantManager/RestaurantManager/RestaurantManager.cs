@@ -173,10 +173,6 @@ namespace RestaurantManager
             OpenChildForm(new Forms.Stock(), sender);
         }
 
-        private void btnClient_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Forms.Client(), sender);
-        }
 
         private void btnCloseChildForn_Click(object sender, EventArgs e)
         {

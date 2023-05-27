@@ -68,3 +68,7 @@ C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\bin\Debug\Syst
 C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\bin\Debug\System.Security.Principal.Windows.xml
 C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\bin\Debug\System.Text.Encoding.CodePages.xml
 C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\bin\Debug\RestaurantManager.exe.manifest
+C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\bin\Debug\RestaurantManager.application
+C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.exe.manifest
+C:\Users\lycao\Desktop\git C#\RestaurantManager\RestaurantManager\obj\Debug\RestaurantManager.application

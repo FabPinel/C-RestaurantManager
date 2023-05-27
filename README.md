@@ -1,5 +1,6 @@
 Install:
 Step 1 : Git clone https://github.com/FabPinel/C-RestaurantManager.git
+
 Step 2 download the data base and import into WAMP or XAMP: 
 
 [telecharger la database](https://github.com/FabPinel/C-RestaurantManager/assets/97904320/ec4ae988-5371-44ac-bbfd-09e402909bb9)

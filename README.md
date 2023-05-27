@@ -3,7 +3,7 @@ Step 1 : Git clone https://github.com/FabPinel/C-RestaurantManager.git
 
 Step 2 download the data base and import into WAMP or XAMP: 
 
-[telecharger la database](https://github.com/FabPinel/C-RestaurantManager/assets/97904320/ec4ae988-5371-44ac-bbfd-09e402909bb9)
+![telecharger la database](https://github.com/FabPinel/C-RestaurantManager/assets/97904320/78f17d2d-4999-4777-9c47-1fa32b26ad66)
 
 Step 3 open the Restaurant Manager.exe folder and clic on setup: 
 

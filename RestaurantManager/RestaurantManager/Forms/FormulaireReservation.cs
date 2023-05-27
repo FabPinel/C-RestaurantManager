@@ -30,23 +30,7 @@ namespace RestaurantManager.Forms
             txtClient.Text = nomClient;
         }
 
-        public void  SaveReservationInfo()
-        {
-            lblTextFormReservation.Text = "Ajouter une réservation";
-            btnSaveReservation.Text = "Sauvegarder";
-        }
-
-        public void Clear()
-        {
-            txtPersonnes.Text = txtTable.Text = txtDate.Text = txtClient.Text = string.Empty;
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnSaveReservation_Click(object sender, EventArgs e)
+        private void btnSaveReservation_Click_1(object sender, EventArgs e)
         {
             if (txtPersonnes.Text.Trim().Length == 0)
             {
@@ -80,6 +64,27 @@ namespace RestaurantManager.Forms
                 DbReservation.UpdateReservation(reservation, id);
             }
             _parent.Display();
+        }
+
+        public void  SaveReservationInfo()
+        {
+            lblTextFormReservation.Text = "Ajouter une réservation";
+            btnSaveReservation.Text = "Ajouter";
+        }
+
+        public void Clear()
+        {
+            txtPersonnes.Text = txtTable.Text = txtDate.Text = txtClient.Text = string.Empty;
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSaveReservation_Click(object sender, EventArgs e)
+        {
+          
         }
     }
 }

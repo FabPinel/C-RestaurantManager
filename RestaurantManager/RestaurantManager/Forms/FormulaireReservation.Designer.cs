@@ -99,6 +99,7 @@
             this.btnSaveReservation.TabIndex = 0;
             this.btnSaveReservation.Text = "Ajouter";
             this.btnSaveReservation.UseVisualStyleBackColor = false;
+            this.btnSaveReservation.Click += new System.EventHandler(this.btnSaveReservation_Click_1);
             // 
             // txtClient
             // 

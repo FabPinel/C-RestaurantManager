@@ -38,8 +38,8 @@
             this.lblStock = new System.Windows.Forms.Label();
             this.txtIngredient = new System.Windows.Forms.TextBox();
             this.lblIngredient = new System.Windows.Forms.Label();
-            this.txtIdStock = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtIdStock = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -158,6 +158,16 @@
             this.lblIngredient.TabIndex = 0;
             this.lblIngredient.Text = "Nom";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(56, 21);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(17, 15);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Id";
+            // 
             // txtIdStock
             // 
             this.txtIdStock.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -166,16 +176,6 @@
             this.txtIdStock.Name = "txtIdStock";
             this.txtIdStock.Size = new System.Drawing.Size(321, 21);
             this.txtIdStock.TabIndex = 6;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(56, 21);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 15);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Nom";
             // 
             // FormulaireStock
             // 

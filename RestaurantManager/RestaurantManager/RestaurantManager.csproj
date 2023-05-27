@@ -189,6 +189,12 @@
     <Compile Include="Forms\FormulaireStock.Designer.cs">
       <DependentUpon>FormulaireStock.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\ReservationClass.cs" />
     <Compile Include="Forms\Stock.cs">
       <SubType>Form</SubType>
@@ -202,12 +208,6 @@
     </Compile>
     <Compile Include="RestaurantManager.Designer.cs">
       <DependentUpon>RestaurantManager.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Menu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Menu.Designer.cs">
-      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Reservation.cs">
       <SubType>Form</SubType>
@@ -306,6 +306,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="mongocrypt.dll" />
+    <None Include="Resources\banniereBoissons.png" />
+    <None Include="Resources\banniereDesserts.png" />
+    <None Include="Resources\banniereSalades.png" />
+    <None Include="Resources\bannierePates2.png" />
+    <None Include="Resources\bannierePates1.png" />
+    <None Include="Resources\bannierePates.png" />
     <None Include="Resources\done.png" />
     <None Include="Resources\dot-RM.png" />
     <None Include="Resources\product-RM.png" />

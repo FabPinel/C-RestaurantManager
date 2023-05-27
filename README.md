@@ -18,5 +18,6 @@ Welcome to restaurant manager C# and Win form :
 ![Dashboard](https://github.com/FabPinel/C-RestaurantManager/assets/97904320/e08b34b7-f8c5-4fc0-a5a6-480073c738d7)
 ![Salle](https://github.com/FabPinel/C-RestaurantManager/assets/97904320/51643e30-15a5-4b72-a4f4-2caada6adcec)
 ![Reservation](https://github.com/FabPinel/C-RestaurantManager/assets/97904320/9062ef7c-b15f-4638-b006-1efa6bc259b3)
+![Menu](https://github.com/FabPinel/C-RestaurantManager/assets/97904320/7d28e83e-9e76-4786-b21a-ba80fb8c140d)
 ![Stock](https://github.com/FabPinel/C-RestaurantManager/assets/97904320/60adfeb6-7b6c-4744-b16a-3437a0dbf9cd)
 
